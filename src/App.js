@@ -11,6 +11,7 @@ import { NoticeEdit } from "./Notice/NoticeEdit";
 import { NoticeView } from "./Notice/NoticeView";
 import { SlabAdd } from "./Slab/SlabAdd";
 import { SlabEdit } from "./Slab/SlabEdit";
+import { SlabView } from "./Slab/SlabView";
 import { Navbar } from "./Layout/Navbar";
 import { HomePage } from "./Layout/HomePage";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
@@ -48,6 +49,7 @@ function App() {
 
           <Route exact path="/slab/slabadd" component={SlabAdd}></Route>
           <Route exact path="/slab/slabedit/:id" component={SlabEdit}></Route>
+          <Route exact path="/slab/slabview/:id" component={SlabView}></Route>
           <Route exact path="/homepage" component={HomePage}></Route>
           {/* <Route component={PageNotFound}></Route> */}
         </Switch>
