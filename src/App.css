@@ -1,0 +1,24 @@
+td .actions {
+  opacity: 0;
+}
+
+td:hover .actions {
+  opacity: 1;
+}
+
+.DeleteIconDeActivate {
+  color: red;
+}
+
+.DeleteIconActivate {
+  color: green;
+}
+
+.EditIcon{
+    color: black;
+}
+
+.homeImage{
+  background-image: url(../src/Images/homepage.jpg);
+  background-size: cover;
+}
